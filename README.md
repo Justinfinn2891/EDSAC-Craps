@@ -1,5 +1,5 @@
 # EDSAC-Craps
-A nice history lesson with a twist of poker :) 
+
 
 ![screenshot](EDSAC_(19).jpg)
 ## History of the EDSAC Machine
