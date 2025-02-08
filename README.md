@@ -1,18 +1,18 @@
 # EDSAC-Craps
 A nice history lesson with a twist of poker :) 
 
-![screenshot](pythonimage.PNG)
+![screenshot](EDSAC_(19).jpg)
 ## History of the EDSAC Machine
 
 The EDSAC (Electronic Delay Storage Automatic Calculator) was one of the first stored-program computers, built at the University of Cambridge by Maurice Wilkes and his team. It became operational on May 6, 1949, and was inspired by John von Neumann's stored program concept. The EDSAC used mercury delay line memory, a type of sequential-access memory that stored bits as sound waves traveling through a tube filled with mercury. Each delay line could hold a fixed number of bits, and the entire memory was divided into words of 17 bits (with 1 bit for the sign and 16 bits for data or instructions). The EDSAC instruction set was designed around a simple single-address architecture where each instruction consisted of a 5-bit opcode, an 11-bit memory address, and a 1-bit modifier for certain operations. The machine primarily worked with the accumulator, meaning most operations involved loading, modifying, or storing values in it. The basic arithmetic operations included adding a number from memory to the accumulator with the "A" instruction and subtracting a number with "S." The "L" instruction loaded a value from memory into the accumulator, while "T" stored the current accumulator value back into memory. It was designed primarily for scientific calculations and helped advance early computer science. It also ran the first computer game—a version of tic-tac-toe. The machine was decommissioned in 1958 but left a lasting legacy, influencing the design of commercial computers like the LEO I.
 
-![screenshot](pythonimage.PNG)
+![screenshot](EDSAC.PNG)
 
 ## Inspiration and Completion for the CRAPS Project
 
 For my CSCI470 Comparison of Programming course with Dr. Lowe, I programmed a Craps poker game on EDSAC, which was both a challenge and a fascinating dive into early computing. Since EDSAC operates with a single-address architecture and only has basic arithmetic and control instructions, my partner and I had to break the game logic down into the simplest possible operations. While implementing this version of Craps, it only supports pass or don't pass bets and starts the player off with 500 dollars. 
 
-![screenshot](pythonimage.PNG)
+![screenshot](edsac2.PNG)
 
 ## Challenges for this project
 
